@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -219,7 +221,7 @@ namespace NewCalculator
                 resultbox.Text = Convert.ToString(temp);               // resultbox에 temp 값 출력
 
                 processbox.Text = "";                                   // processbox 공백으로 초기화
-
+                
             }
         }
 
